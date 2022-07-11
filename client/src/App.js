@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import opt from './options.json'
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {console.log(opt.test)}
+
         </a>
         <label htmlFor="cars">Choose a car:</label>
         <select id="cars" name="cars">
